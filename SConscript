@@ -3,7 +3,7 @@ import os
 
 cwd = GetCurrentDir()
 path = [os.path.join(cwd, 'Inc')]
-src_path = os.path.join(cwd, 'Src')
+src_path = 'Src'
 path += [os.path.join(cwd, 'Inc/Legacy')]
 
 CPPDEFINES = ['USE_HAL_DRIVER']
